@@ -1,3 +1,10 @@
+/*--------------*/
+/* 
+alligator.io minimal reset:
+https://www.digitalocean.com/community/tutorials/css-minimal-css-reset
+*/
+/*--------------*/
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -20,4 +27,11 @@ ol, ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+/*--------------*/
+/* height 100% */
+/*--------------*/
+html, body, #root, #root>div {
+  height: 100%
 }
