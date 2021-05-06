@@ -18,3 +18,5 @@ export const COLORS = {
     neutralBlack:'#151518',
 
 }
+
+export default COLORS;
