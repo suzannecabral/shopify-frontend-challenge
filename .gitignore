@@ -25,3 +25,4 @@ yarn-error.log*
 .vscode/
 src/components/0*
 dummy.json
+.env
