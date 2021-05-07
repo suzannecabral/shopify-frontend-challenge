@@ -12,7 +12,6 @@ const StyledMovieCard = styled.div`
 
 const MovieCard = props => {
     const { Title, Year, Genre } = props.movie;
-    console.log("Movie title:", Title);
     return(
         <StyledMovieCard>
             <p>Title: {Title}</p>
