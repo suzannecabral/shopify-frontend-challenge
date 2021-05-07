@@ -4,8 +4,8 @@ import COLORS from './styles/styleValues';
 import Header from './components/Header';
 import BannerStatus from './components/BannerStatus';
 import SearchBar from './components/SearchBar';
-import SearchResults from './components/SearchResults';
-import SelectedList from './components/SelectedList';
+import SearchContainer from './components/SearchContainer';
+
 
 const StyledApp = styled.div`
   height:100%;
@@ -19,6 +19,9 @@ function App() {
       <StyledApp>
         <BannerStatus />
         <Header />
+        <SearchBar />
+        <SearchContainer />
+        
       </StyledApp>
     </div>
   );
