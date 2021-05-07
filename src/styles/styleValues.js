@@ -12,6 +12,7 @@ export const COLORS = {
     // neutral: blue-tinted grays
     neutralWhite:'#f9fafd',
     neutralOffWhite:'#F1F3FB',
+    neutralLight:'#e8ecef',
     neutralMid:'#e3f2fd',
     neutralDark:'#464950',
     neutralOffBlack:'#232428',
