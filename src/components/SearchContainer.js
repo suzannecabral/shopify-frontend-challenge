@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import COLORS from '../styles/styleValues';
+// import COLORS from '../styles/styleValues';
 
 import SearchResults from './SearchResults';
 import SelectedList from './SelectedList';
