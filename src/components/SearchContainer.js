@@ -6,6 +6,8 @@ import SearchResults from './SearchResults';
 import SelectedList from './SelectedList';
 
 const StyledSearchContainer = styled.div`
+    border:1px solid green;
+    display:flex;
 
 `;
 
