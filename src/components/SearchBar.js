@@ -3,14 +3,24 @@ import styled from 'styled-components';
 import COLORS from '../styles/styleValues';
 
 const StyledSearchBar = styled.div`
-    background-color:${COLORS.accentLight};
-    color:${COLORS.neutralBlack}
+    background-color:${COLORS.neutralDark};
+    color:${COLORS.neutralWhite};
+    input{
+        background-color:${COLORS.neutralOffWhite};
+        border: 1px solid ${COLORS.neutralWhite};
+        border-radius:.3rem;
+        padding:.2rem;
+        margin:.4rem .2rem;
+
+    }
 `;
 
 const SearchBar = props => {
     return(
         <StyledSearchBar>
-            <p>SearchBar</p>
+            <form>
+                <input type="text" placeholder="Movie Title"></input>
+            </form>
         </StyledSearchBar>
     );
 }
