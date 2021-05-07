@@ -17,8 +17,8 @@ function App() {
   return (
     <div className="App">
       <StyledApp>
-        <BannerStatus />
         <Header />
+        <BannerStatus />
         <SearchBar />
         <SearchContainer />
         
