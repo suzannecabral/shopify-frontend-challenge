@@ -1,5 +1,7 @@
 # The Shoppies
 
+[Deployed Project (Netlify)](https://suzannecabral-shopify-frontend.netlify.app/)
+
 This project was created for the [Shopify Fall 2021 Internship](https://www.shopify.ca/careers/fall-2021-frontend-developer-internship-1549282c).
 
 [Frontend Challenge Documentation](https://docs.google.com/document/d/1SdR9rQpocsH5rPTOcxr9noqHRld5NJlylKO9Hf94U8U/edit#heading=h.31w9woubunro)
